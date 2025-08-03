@@ -1,0 +1,6 @@
+#iframe:test/ncoord/result.txt
+
+ncoord error: [-214748.9999999999d,0.0d,0.5d]
+xyz: 214748, 0, 0
+temp: -214749, 0, 0
+ncoord test complete!

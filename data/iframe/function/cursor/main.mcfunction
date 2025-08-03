@@ -5,3 +5,5 @@ execute store result storage iframe:io xyz[0] double 0.0001 run scoreboard playe
 execute store result storage iframe:io xyz[1] double 0.0001 run scoreboard players remove y int 5000
 execute store result storage iframe:io xyz[2] double 0.0001 run scoreboard players get @s z
 data modify entity @s Pos set from storage iframe:io xyz
+
+execute if score @s killtime matches ..2 run function iframe:cursor/_del

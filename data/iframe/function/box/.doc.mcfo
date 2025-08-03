@@ -1,0 +1,9 @@
+#iframe:box/doc.mcfo
+
+# 碰撞箱的临时对象
+{
+	border: {
+		<x_min,int,1w>, <y_min,int,1w>, <z_min,int,1w>,
+		<x_max,int,1w>, <y_max,int,1w>, <z_max,int,1w>
+	}
+}

@@ -1,14 +1,7 @@
 {
 	"criteria":{
 		"requirement":{
-			"trigger":"minecraft:using_item",
-			"conditions":{
-				"item":{
-					"items":[
-						"minecraft:trident"
-					]
-				}
-			}
+			"trigger":"minecraft:using_item"
 		}
 	},
 	"rewards":{

@@ -1,0 +1,11 @@
+#iframe:solid/doc.mcfo
+
+_this:{
+	select_point:{
+		<solid_x,int,1>,
+		<solid_y,int,1>,
+		<solid_z,int,1>
+	}
+}
+
+已加载区块中的全部方块

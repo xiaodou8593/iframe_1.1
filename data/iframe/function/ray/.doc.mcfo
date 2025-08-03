@@ -1,0 +1,31 @@
+#iframe:ray/doc.mcfo
+
+# 视线的临时对象
+_this: {
+	start_point:{
+		<x_start,int,1w>,<y_start,int,1w>,<z_start,int,1w>
+	},
+	end_point:{
+		<x_end,int,1w>,<y_end,int,1w>,<z_end,int,1w>
+	},
+	kvec:{
+		<kvec_x,int,1w>,<kvec_y,int,1w>,<kvec_z,int,1w>
+	},
+	target: {
+		<iframe_ray_res,int>,
+		<iframe_ray_ptr,int>,
+		<iframe_ray_min,int>,
+		in_point: {
+			<iframe_ray_ix,int,1w>,
+			<iframe_ray_iy,int,1w>,
+			<iframe_ray_iz,int,1w>
+		}
+	},
+	settings: {
+		<iframe_ray_ztest,int>,
+		<iframe_ray_phi,int>,
+		<iframe_ray_per,int>
+	}
+}
+
+# 运行需要世界实体0-0-0-0-0
