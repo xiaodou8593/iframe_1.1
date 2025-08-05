@@ -55,8 +55,9 @@ scoreboard players set iframe_ray_res int 0
 execute store result storage iframe:io sx int 1 run scoreboard players get sstemp_sx int
 execute store result storage iframe:io sy int 1 run scoreboard players get sstemp_sy int
 execute store result storage iframe:io sz int 1 run scoreboard players get sstemp_sz int
-scoreboard players operation ssloop int = iframe_ray_r int
-execute if score ssloop int matches 1.. at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function iframe:ray/if_solid/search with storage iframe:io {}
+scoreboard players operation sstemp_max int = iframe_ray_r int
+scoreboard players operation sstemp_max int *= 10000 int
+execute at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function iframe:ray/if_solid/search with storage iframe:io {}
 
 # 区块安全
 tp @s 0 0 0
